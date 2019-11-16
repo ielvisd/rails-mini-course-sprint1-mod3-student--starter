@@ -4,9 +4,8 @@
 
 1. Create a new rails app using the rails app generator ✅
    - Using '--skip-coffee' after the app name as a param to skip coffeeScript
-2. Scaffold the resources shown below using rails generators
-
-_Note: Don't forget to initialize and setup the database as part of your scaffolding process._
+2. Scaffold the resources shown below using rails generators ✅
+   _Note: Don't forget to initialize and setup the database as part of your scaffolding process._
 
 **`User`**
 
