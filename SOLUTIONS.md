@@ -39,3 +39,16 @@ HTTP Verb Path Controller#Action Used for
 - GET /users/:id/edit users#edit return an HTML form for editing a user
 - PATCH/PUT /users/:id users#update update a specific user
 - DELETE /users/:id users#destroy delete a specific user
+
+## Step Four - Use Rails Console to Create a User
+
+We removed the routes to create a User because we only want developers to be able to do that. The way our developers will create new users for this app is to use the rails console. Use the rails console to create 2 users. Paste the commands you used into the `SOLUTIONS.md` file.
+
+> > first_user = User.create
+> > (0.1ms) begin transaction
+> > User Create (0.4ms) INSERT INTO "users" ("created_at", "updated_at") VALUES (?, ?) [["created_at", "2019-11-16 21:55:38.439787"], ["updated_at", "2019-11-16 21:55:38.439787"]](1.0ms) commit transaction
+> > => #<User id: 1, email: nil, active: nil, created_at: "2019-11-16 21:55:38", updated_at: "2019-11-16 21:55:38">
+> > second_user = User.create
+> > (0.1ms) begin transaction
+> > User Create (0.7ms) INSERT INTO "users" ("created_at", "updated_at") VALUES (?, ?) [["created_at", "2019-11-16 21:55:51.651067"], ["updated_at", "2019-11-16 21:55:51.651067"]](0.6ms) commit transaction
+> > => #<User id: 2, email: nil, active: nil, created_at: "2019-11-16 21:55:51", updated_at: "2019-11-16 21:55:51">

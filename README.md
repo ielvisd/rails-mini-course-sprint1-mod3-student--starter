@@ -53,9 +53,9 @@ First, start the rails server. Then, make a request to `/tasks/new`, fill out th
 
 Our application has all 7 actions available for both Users and Tasks. We don't want that--we want to set limits on these resources.
 
-- Limit users resource to _only_ allow `index` and `show`
-- Limit tasks resource to allow everything _except_ `destroy`
-- remove the corresponding controller actions that are no longer routable
+- Limit users resource to _only_ allow `index` and `show` ✅
+- Limit tasks resource to allow everything _except_ `destroy` ✅
+- remove the corresponding controller actions that are no longer routable ✅
 
 ## Step Four - Use Rails Console to Create a User
 
