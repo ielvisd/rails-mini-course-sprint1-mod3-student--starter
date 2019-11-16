@@ -34,12 +34,12 @@ Write all of your answers to the questions below in a separate readme named SOLU
 
 ### Rails MVC
 
-First, start the rails server. Then, make a request to `/tasks/new`, fill out the form and submit it in order to create a new task.
+First, start the rails server. Then, make a request to `/tasks/new`, fill out the form and submit it in order to create a new task. ✅
 
-1. What controller and action handles the data from the form submission?
-2. What controller and action would be used if you did a `GET` request on the `/users` route?
-3. Write out the step-by-step process that your rails application will take to render the `tasks/new` route.
-4. What file is responsible for managing the mapping between your application and the `tasks` database table?
+1. What controller and action handles the data from the form submission? ✅
+2. What controller and action would be used if you did a `GET` request on the `/users` route? ✅
+3. Write out the step-by-step process that your rails application will take to render the `tasks/new` route. ✅
+4. What file is responsible for managing the mapping between your application and the `tasks` database table? ✅
 
 ### Rails RESTful Actions
 
